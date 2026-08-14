@@ -1,0 +1,17 @@
+{
+  "description": "A public 300-route migration corpus with synthetic stable keys.",
+  "policy_sha256": "60b789dcc907e198ae98a277524be496078bed2d925bd08bf78674c993b36a98",
+  "key_prefix": "fixture-14-",
+  "first_key_number": 1201,
+  "route_count": 300,
+  "domain": "implementation",
+  "profiles": [
+    {"reasoning": 4, "verifiability": 4, "risk": "none", "context_need": 200000},
+    {"reasoning": 4, "verifiability": 1, "risk": "none", "context_need": 0},
+    {"reasoning": 5, "verifiability": 5, "risk": "none", "context_need": 500000},
+    {"reasoning": 4, "verifiability": 4, "risk": "outward", "context_need": 0},
+    {"reasoning": 4, "verifiability": 4, "risk": "prod-data", "context_need": 100000},
+    {"reasoning": 3, "verifiability": 5, "risk": "none", "context_need": 0}
+  ],
+  "expected": {"codex": 240, "claude": 60, "errors": 0}
+}

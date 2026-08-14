@@ -1,0 +1,447 @@
+{
+  "version": 1,
+  "fetched_at": "2026-08-14T13:21:02Z",
+  "models": [
+    {
+      "key": "claude/opus",
+      "harness": "claude",
+      "model": "opus",
+      "catalog_id": "anthropic/claude-opus-4.8",
+      "context": 1000000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 5.0,
+      "cost_out": 25.0,
+      "cache_read": 0.5,
+      "cache_write": 6.25,
+      "tiers": {
+        "code-review": 5,
+        "implementation": 5,
+        "research-writing": 5,
+        "ops-comms": 4
+      }
+    },
+    {
+      "key": "claude/fable",
+      "harness": "claude",
+      "model": "fable",
+      "catalog_id": "anthropic/claude-fable-5",
+      "context": 1000000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 10.0,
+      "cost_out": 50.0,
+      "cache_read": 1.0,
+      "cache_write": 12.5,
+      "tiers": {
+        "code-review": 5,
+        "implementation": 5,
+        "research-writing": 5,
+        "ops-comms": 4
+      }
+    },
+    {
+      "key": "claude/sonnet",
+      "harness": "claude",
+      "model": "sonnet",
+      "catalog_id": "anthropic/claude-sonnet-5",
+      "context": 1000000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 2.0,
+      "cost_out": 10.0,
+      "cache_read": 0.2,
+      "cache_write": 2.5,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 4,
+        "research-writing": 4,
+        "ops-comms": 4
+      }
+    },
+    {
+      "key": "claude/haiku",
+      "harness": "claude",
+      "model": "haiku",
+      "catalog_id": "anthropic/claude-haiku-4.5",
+      "context": 200000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 1.0,
+      "cost_out": 5.0,
+      "cache_read": 0.1,
+      "cache_write": 1.25,
+      "tiers": {
+        "code-review": 2,
+        "implementation": 2,
+        "research-writing": 2,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "claude/sonnet-4.6",
+      "harness": "claude",
+      "model": "claude-sonnet-4-6",
+      "catalog_id": "anthropic/claude-sonnet-4.6",
+      "context": 1000000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 3.0,
+      "cost_out": 15.0,
+      "cache_read": 0.3,
+      "cache_write": 3.75,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 4,
+        "research-writing": 4,
+        "ops-comms": 4
+      }
+    },
+    {
+      "key": "codex/gpt-5.1-codex-max",
+      "harness": "codex",
+      "model": "gpt-5.1-codex-max",
+      "catalog_id": "openai/gpt-5.1-codex-max",
+      "context": 400000,
+      "available": false,
+      "data_ok": true,
+      "cost_in": 1.25,
+      "cost_out": 10.0,
+      "cache_read": 0.125,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 5,
+        "implementation": 5,
+        "research-writing": 4,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.3-codex",
+      "harness": "codex",
+      "model": "gpt-5.3-codex",
+      "catalog_id": "openai/gpt-5.3-codex",
+      "context": 400000,
+      "available": false,
+      "data_ok": true,
+      "cost_in": 1.75,
+      "cost_out": 14.0,
+      "cache_read": 0.175,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 5,
+        "implementation": 5,
+        "research-writing": 4,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.2-codex",
+      "harness": "codex",
+      "model": "gpt-5.2-codex",
+      "catalog_id": "openai/gpt-5.2-codex",
+      "context": 400000,
+      "available": false,
+      "data_ok": true,
+      "cost_in": 1.75,
+      "cost_out": 14.0,
+      "cache_read": 0.175,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 4,
+        "research-writing": 3,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/o3",
+      "harness": "codex",
+      "model": "o3",
+      "catalog_id": "openai/o3",
+      "context": 200000,
+      "available": false,
+      "data_ok": true,
+      "cost_in": 2.0,
+      "cost_out": 8.0,
+      "cache_read": 0.5,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 4,
+        "research-writing": 4,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/codex-mini",
+      "harness": "codex",
+      "model": "codex-mini-latest",
+      "catalog_id": "openai/gpt-5.1-codex-mini",
+      "context": 400000,
+      "available": false,
+      "data_ok": true,
+      "cost_in": 0.25,
+      "cost_out": 2.0,
+      "cache_read": 0.03,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 2,
+        "implementation": 2,
+        "research-writing": 2,
+        "ops-comms": 2
+      }
+    },
+    {
+      "key": "codex/gpt-5.5",
+      "harness": "codex",
+      "model": "gpt-5.5",
+      "catalog_id": "openai/gpt-5.5",
+      "context": 1050000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 5.0,
+      "cost_out": 30.0,
+      "cache_read": 0.5,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 5,
+        "research-writing": 4,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "opencode/glm-5.2",
+      "harness": "opencode",
+      "model": "openrouter/z-ai/glm-5.2",
+      "catalog_id": "z-ai/glm-5.2",
+      "context": 1048576,
+      "available": true,
+      "data_ok": false,
+      "cost_in": 0.63,
+      "cost_out": 1.98,
+      "cache_read": 0.0945,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 3,
+        "implementation": 4,
+        "research-writing": 3,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "opencode/kimi-k2.6",
+      "harness": "opencode",
+      "model": "openrouter/moonshotai/kimi-k2.6",
+      "catalog_id": "moonshotai/kimi-k2.6",
+      "context": 262144,
+      "available": true,
+      "data_ok": false,
+      "cost_in": 0.95,
+      "cost_out": 4.0,
+      "cache_read": 0.16,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 3,
+        "implementation": 3,
+        "research-writing": 4,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "opencode/deepseek-v4-pro",
+      "harness": "opencode",
+      "model": "openrouter/deepseek/deepseek-v4-pro",
+      "catalog_id": "deepseek/deepseek-v4-pro",
+      "context": 1048576,
+      "available": true,
+      "data_ok": false,
+      "cost_in": 1.168,
+      "cost_out": 2.336,
+      "cache_read": 0.0986,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 3,
+        "implementation": 3,
+        "research-writing": 3,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.6-sol",
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "catalog_id": "openai/gpt-5.6-sol",
+      "context": 1050000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 5.0,
+      "cost_out": 30.0,
+      "cache_read": 0.5,
+      "cache_write": 6.25,
+      "tiers": {
+        "code-review": 5,
+        "implementation": 5,
+        "research-writing": 4,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.6-terra",
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "catalog_id": "openai/gpt-5.6-terra",
+      "context": 1050000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 1.0,
+      "cost_out": 6.0,
+      "cache_read": 0.1,
+      "cache_write": 1.25,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 4,
+        "research-writing": 3,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.6-luna",
+      "harness": "codex",
+      "model": "gpt-5.6-luna",
+      "catalog_id": "openai/gpt-5.6-luna",
+      "context": 1050000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 0.1,
+      "cost_out": 0.6,
+      "cache_read": 0.01,
+      "cache_write": 0.125,
+      "tiers": {
+        "code-review": 3,
+        "implementation": 3,
+        "research-writing": 3,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.4",
+      "harness": "codex",
+      "model": "gpt-5.4",
+      "catalog_id": "openai/gpt-5.4",
+      "context": 1050000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 2.5,
+      "cost_out": 15.0,
+      "cache_read": 0.25,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 4,
+        "implementation": 4,
+        "research-writing": 3,
+        "ops-comms": 3
+      }
+    },
+    {
+      "key": "codex/gpt-5.4-mini",
+      "harness": "codex",
+      "model": "gpt-5.4-mini",
+      "catalog_id": "openai/gpt-5.4-mini",
+      "context": 400000,
+      "available": true,
+      "data_ok": true,
+      "cost_in": 0.75,
+      "cost_out": 4.5,
+      "cache_read": 0.075,
+      "cache_write": null,
+      "tiers": {
+        "code-review": 2,
+        "implementation": 2,
+        "research-writing": 2,
+        "ops-comms": 2
+      }
+    }
+  ],
+  "overlay": {
+    "claude/opus": {
+      "tiers": {
+        "research-writing": 4
+      },
+      "updated_at": "2026-07-15T16:02:06Z"
+    },
+    "opencode/deepseek-v4-pro": {
+      "available": false,
+      "updated_at": "2026-07-20T13:20:00Z"
+    },
+    "opencode/glm-5.2": {
+      "available": false,
+      "updated_at": "2026-07-20T13:20:00Z"
+    },
+    "opencode/kimi-k2.6": {
+      "available": false,
+      "updated_at": "2026-07-20T13:20:00Z"
+    },
+    "claude/haiku": {
+      "available": false,
+      "updated_at": "2026-07-20T13:45:00Z"
+    },
+    "codex/gpt-5.6-sol": {
+      "tiers": {
+        "ops-comms": 4,
+        "implementation": 5
+      },
+      "updated_at": "2026-08-14T15:07:42Z"
+    },
+    "codex/gpt-5.6-terra": {
+      "tiers": {
+        "research-writing": 2,
+        "ops-comms": 2,
+        "code-review": 2
+      },
+      "updated_at": "2026-08-11T00:00:00Z",
+      "available": false,
+      "cost_in": 2.5,
+      "cost_out": 15.0
+    },
+    "codex/gpt-5.6-luna": {
+      "tiers": {
+        "ops-comms": 4,
+        "implementation": 3
+      },
+      "updated_at": "2026-07-23T10:05:00Z",
+      "available": false
+    },
+    "codex/gpt-5.4-mini": {
+      "tiers": {
+        "ops-comms": 2
+      },
+      "updated_at": "2026-07-23T10:05:00Z",
+      "available": false
+    },
+    "claude/sonnet": {
+      "available": false,
+      "updated_at": "2026-07-23T10:05:00Z"
+    },
+    "claude/sonnet-4.6": {
+      "available": false,
+      "updated_at": "2026-07-23T10:05:00Z"
+    },
+    "codex/gpt-5.4": {
+      "available": false,
+      "updated_at": "2026-07-23T10:05:00Z"
+    },
+    "codex/gpt-5.5": {
+      "available": false,
+      "updated_at": "2026-08-11T00:00:00Z"
+    }
+  },
+  "preferences": {
+    "implementation": {
+      "key": "codex/gpt-5.6-sol",
+      "strength": 80,
+      "updated_at": "2026-08-14T15:07:35Z"
+    }
+  }
+}
